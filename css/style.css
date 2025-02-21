@@ -1,0 +1,111 @@
+/* Estilo global */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(194, 169, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilos de login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.login-box {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px; 
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.input-group i {
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #888;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 16px;
+    width: 100%;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.options label {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.options a {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg, blueviolet, rgb(180, 131, 225));
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background: linear-gradient(90deg, rgb(180, 131, 225), blueviolet);
+}
+
+.signup-link { 
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup-link a:hover, .options a:hover {
+    color: rgb(180, 131, 225);
+}
